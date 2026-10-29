@@ -5,7 +5,7 @@ cask "playfin" do
 
   url "https://github.com/playfin-app/playfin/releases/download/v#{version}/Playfin-macOS.zip"
   name "Playfin"
-  desc "Native macOS client for Jellyfin (independent, not affiliated with the Jellyfin project)"
+  desc "Fast native client for Jellyfin media servers"
   homepage "https://github.com/playfin-app/playfin"
 
   depends_on macos: :sonoma
